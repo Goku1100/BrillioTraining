@@ -1,0 +1,98 @@
+body{
+    font-size: 16px;
+    color: white;
+    background-color: #61122f;
+    font-family: oxygen,sans-serif;
+}
+
+#header-nav{
+    background-color: #f6b319;
+    border-radius: 0px;
+    border: 0;
+}
+
+.navbar-brand{
+    /* padding-top: 25px; */
+    padding: auto;
+    margin-bottom: 15px;
+}
+
+.navbar-brand h1{
+    color:#557c3e;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-shadow: 1px #222;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+    text-decoration: none;
+}
+.container .jumbotron{
+    box-shadow: 0 0 50px #3F0C1F;
+    border:2px solid #3F0C1F;
+    padding: 0px;
+}
+.jumbotron img{
+    width: 100%;
+}
+
+.col-sm-6 #topstory{
+    text-align: center;
+}
+
+.col-sm-6 #newsfeed{
+    padding-left: 20px;
+    height: 220px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+#bollywood-tile, #sports-tile, #covid-19-tile{
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+#bollywood-tile:hover, #sports-tile:hover, #covid-19-tile:hover{
+    box-shadow: 0px 1px 5px 1px #cccccc;
+}
+
+#bollywood-tile span, #sports-tile span, #covid-19-tile span{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size:1.6em;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.panel-footer{
+    background-color: #222;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top:0;
+}
+
+.bollywoodnews-tile{
+    position: relative;
+    border: 2px solid #3F0C1F;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.bollywoodnews-tile span{
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0.8;
+}
+a:hover,a:focus{
+    text-decoration: none;
+}

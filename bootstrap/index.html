@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div id="myNavbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">NewsTime</a></li>
+                        <li><a href="bollywood.html">Bollywood</a></li>
+                        <li><a href="sports.html">Sports</a></li>
+                        <li><a href="covid-19.html">Covid-19</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="main-content" class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="jumbotron">
+                    <img src="images/breakingnews.jfif">
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div id="topstory"><h3>Top Stories</h3></div>
+                <marquee id="newsfeed" behaviour="scroll" direction="up" scrollamount="3">Salman is back again in Bigg Boss!!<br><br>
+                Politics is boring<br><br>
+                Ronaldo Cause huge loss to Coke<br><br>
+                Covid is incresing all over the world<br><br>
+                5 people started a startup and earned 5crore
+                </marquee>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-sm-4">
+                <a href="bollywood.html">
+                    <div id="bollywood-tile">
+                        <img width="100%" height="200" src="images/bollywood.png" alt="Bollywood">
+                        <span>Bollywood</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="sports.html">
+                    <div id="sports-tile">
+                        <img width="100%" height="200" src="images/sports.jfif" alt="sports">
+                        <span>Sports</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a href="covid-19.html">
+                    <div id="covid-19-tile">
+                        <img width="100%" height="200" src="images/covid-19.jpg" alt="Covid-19">
+                        <span>Covid-19</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row">
+                <section id="about" class="col-sm-6">
+                    <span>About Us</span>
+                    <p>We provide you the latest news Faster than anyone.</p>
+                </section>
+                <section id="about" class="col-sm-6">
+                    <span>NewsTime</span>
+                    <p>Follow us on:<br>
+                    instagram: @newstime24/7<br>
+                    facebook: @newstimefeed
+                    </p>
+                </section>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
